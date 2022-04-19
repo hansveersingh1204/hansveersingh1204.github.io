@@ -57,7 +57,12 @@ body {
 	font-family: Helvetica;
 	color: black;
 }
-
+ /*page 1 title styling*/
+#Title p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
 
 /*Nav bar design*/
 #navbar {
@@ -108,7 +113,7 @@ body {
 	transform: translate(-50%,-50%);
 	position: absolute;
 }
-
+/*Button styling for dark mode*/
 #theme-div {
 	position: absolute;
 	top: 0;
@@ -302,6 +307,7 @@ ul {
 	font-weight: bold;
 }
 
+/*button nav styling*/
 .bottom-nav {
 	overflow: hidden;
 	background-color: black;
@@ -311,6 +317,7 @@ ul {
 	height: 7vh;
 	font-weight: bold;
 }
+
 
 .bottom-nav a {
 	color: white;
@@ -322,8 +329,4 @@ ul {
 }
 
 
-#Title p{
-	text-align: center;
-	font-weight: bold;
-	font-size: 30px;
-}
+
